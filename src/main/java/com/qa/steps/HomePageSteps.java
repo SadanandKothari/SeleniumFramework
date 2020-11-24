@@ -38,7 +38,7 @@ public class HomePageSteps extends TestBase{
 	public void validate_homepage_title() throws Throwable {
 		Thread.sleep(6000);
 		String homePageTitle = homepage.verifyHomePageTitle();
-		Assert.assertEquals("Cogmento CRM", homePageTitle);	   
+		Assert.assertEquals("Cogmento CRM",homePageTitle);	   
 	}
 
 	@Then("^validate logged in username$")
